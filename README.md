@@ -18,18 +18,15 @@ Finally,I evaluated the predicted results on value of number,including two measu
   There are two graphs to showu the results.One is to show the difference of three methods,the other is to show which is the best kernel between 'linear','poly','rbf' when I use the method of SVR.Graph1 is a histogram and Graph2 is a linechart. THe contrast is all clear.  
 
 A comparison of the three methods I used(graph1)
-<img src="image//picture1.png" height="200" width="200">   
-
-
-
+<img src="image//picture1.png" height="200" width="200">           
 The comparison of SVR with different kernel(graph2)
-<img src="image//picture2.png" height="200" width="200">  
+<img src="image//picture2.png" height="200" width="200">          
   The result is with a standardization of X_test and X_train,with no standardization of y_train and y_train.But the results shown in the chart are different from those in the book.Because the book has a standardization of y_train and y_test.
 
 
 
 The comparison of SVR with different kernel with no standardization for all(graph3)
-<img src="image//picture3.png" height="200" width="200">  
+<img src="image//picture3.png" height="200" width="200">      
   It is clear that accuracy is falling fast,Especially for the last two kinds of kerne.This illustrates the importance of standardization for data that vary widely, which directly affects the final accuracy
 
 3.Some questions I can't deal  
