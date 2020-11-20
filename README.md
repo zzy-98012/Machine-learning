@@ -20,9 +20,13 @@ Finally,I evaluated the predicted results on value of number,including two measu
 A comparison of the three methods I used(graph1)
 <img src="image//picture1.png" height="200" width="200">   
 
+
+
 The comparison of SVR with different kernel(graph2)
 <img src="image//picture2.png" height="200" width="200">  
   The result is with a standardization of X_test and X_train,with no standardization of y_train and y_train.But the results shown in the chart are different from those in the book.Because the book has a standardization of y_train and y_test.
+
+
 
 The comparison of SVR with different kernel with no standardization for all(graph3)
 <img src="image//picture3.png" height="200" width="200">  
