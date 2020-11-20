@@ -17,7 +17,7 @@ Finally,I evaluated the predicted results on value of number,including two measu
 2.2 graph  
   There are two graphs to showu the results.One is to show the difference of three methods,the other is to show which is the best kernel between 'linear','poly','rbf' when I use the method of SVR.Graph1 is a histogram and Graph2 is a linechart. THe contrast is all clear.  
 
-A comparison of the three methods I used(graph1)
+<p align="center">A comparison of the three methods I used(graph1)</p>
 <div align=center><img src="https://github.com/zzy-98012/Machine-learning/blob/main/image/picture1.PNG" height="300" width="400"/></div>  
   
 The comparison of SVR with different kernel(graph2)
