@@ -20,14 +20,23 @@ Finally,I evaluated the predicted results on value of number,including two measu
 <p align="center">A comparison of the three methods I used(graph1)</p>
 <div align=center><img src="https://github.com/zzy-98012/Machine-learning/blob/main/image/picture1.PNG" height="300" width="400"/></div>  
   The chart shows the results of the three methods I used,SVR(kernel=rbf),KNeighborsRegressor,GradientBoostingRegressor.
-  
+
+Following is another dada from textbook.and I will compare the method SVR with different kernel of"linear,poly,rbf"
 <p align="center">The comparison of SVR with different kernel(graph2)</p>
 <div align=center><img src="https://github.com/zzy-98012/Machine-learning/blob/main/image/picture2.PNG" height="300" width="400"/></div> 
-  The result is with a standardization of X_test and X_train,with no standardization of y_train and y_train.But the results shown in the chart are different from those in the book.Because the book has a standardization of y_train and y_test.  
-  
+  The result is with a standardization of X_test and X_train,with no standardization of y_train and y_train.But the results shown in the chart are different from those in the book.Because the book has a standardization of y_train and y_test. 
+  Following is the score from textbook.And obviously the results are a little bit different than what I did.I think it is because I do not standarlize the y_train and y_train.The question I have write in the end.
+<div align=center><img src="https://github.com/zzy-98012/Machine-learning/blob/main/image/book1.PNG" height="100" width="400"/></div> 
+<div align=center><img src="https://github.com/zzy-98012/Machine-learning/blob/main/image/book2.PNG" height="100" width="400"/></div>  
+<div align=center><img src="https://github.com/zzy-98012/Machine-learning/blob/main/image/book3.PNG" height="100" width="400"/></div> 
+
+I removed all standardization processes to compare the score of SVR with kernel(linear,poly,rbf)
 <p align="center">The comparison of SVR with different kernel with no standardization for all(graph3)</p>
 <div align=center><img src="https://github.com/zzy-98012/Machine-learning/blob/main/image/picture3.PNG" height="300" width="400"/></div>       
   It is clear that accuracy is falling fast,Especially for the last two kinds of kerne.This illustrates the importance of standardization for data that vary widely, which directly affects the final accuracy.
 
 3.Some questions I can't deal  
   When I standardized the data with the the module of StandardScaler,I can only standardize the 'X_train' and 'X_test'.If I standardized the 'y_train' and 'y_test',there were some questions I can't find.Therefore, my results are quite different from those in the book when compare the difference of various kernel for SVR.
+<div align=center><img src="https://github.com/zzy-98012/Machine-learning/blob/main/image/error1.PNG" height="300" width="400"/></div> 
+<div align=center><img src="https://github.com/zzy-98012/Machine-learning/blob/main/image/error2.PNG" height="300" width="400"/></div> 
+<div align=center><img src="https://github.com/zzy-98012/Machine-learning/blob/main/image/error3.PNG" height="300" width="400"/></div> 
